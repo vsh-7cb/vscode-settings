@@ -1,0 +1,55 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.iconTheme": "material-icon-theme",
+    "jupyter.askForKernelRestart": false,
+    "explorer.confirmDelete": false,
+    "workbench.sideBar.location": "right",
+    "workbench.colorCustomizations": {
+        // "editorOverviewRuler.border": "#00000000",
+        "terminal.background": "#1e1e1e",
+        "sideBar.background": "#1e1e1e",
+        "titleBar.activeBackground": "#1e1e1e",
+        "statusBar.background": "#1e1e1e",
+        "activityBar.background": "#1e1e1e",
+        "tab.inactiveBackground": "#1e1e1e",
+        "editor.background": "#1e1e1e",
+        "editorGroupHeader.tabsBackground": "#1e1e1e",
+        "editor.lineHighlightBackground": "#1e1e1e",
+        "editor.lineHighlightBorder": "#1e1e1e",
+        "tab.activeBackground": "#2a2a2a",
+        "tab.border": "#393939",
+        "terminal.border": "#393939",
+        "sideBar.border": "#393939",
+        "titleBar.border": "#393939",
+        "statusBar.border": "#616161",
+        "activityBar.border": "#393939",
+        "panel.border": "#393939",
+        "editorGroupHeader.tabsBorder": "#393939",
+        "editorGroupHeader.border": "#393939",
+    },
+    "workbench.panel.defaultLocation": "right",
+    "search.useIgnoreFiles": false,
+    "git.confirmSync": false,
+    "editor.minimap.enabled": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "git.enableSmartCommit": true,
+    "extensions.ignoreRecommendations": true,
+    
+    
+    "python.languageServer": "Pylance",
+    "files.associations": {
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html",
+        "**/templates/**/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+
+    "search.exclude": {
+        "**/venv": true,
+        "**/__pycache__": true
+    }
