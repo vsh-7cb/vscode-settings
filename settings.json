@@ -1,8 +1,7 @@
 {
     "workbench.colorTheme": "Default Dark+",
     "workbench.iconTheme": "material-icon-theme",
-    "jupyter.askForKernelRestart": false,
-    "explorer.confirmDelete": false,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
     "workbench.sideBar.location": "right",
     "workbench.colorCustomizations": {
         // "editorOverviewRuler.border": "#00000000",
@@ -33,11 +32,9 @@
     "editor.minimap.enabled": false,
     "editor.hideCursorInOverviewRuler": true,
     "editor.scrollbar.horizontal": "hidden",
-    "editor.scrollbar.vertical": "hidden",
+    // "editor.scrollbar.vertical": "hidden",
     "git.enableSmartCommit": true,
     "extensions.ignoreRecommendations": true,
-    
-    
     "python.languageServer": "Pylance",
     "files.associations": {
         "**/*.html": "html",
@@ -48,8 +45,12 @@
     "emmet.includeLanguages": {
         "django-html": "html"
     },
-
     "search.exclude": {
         "**/venv": true,
         "**/__pycache__": true
+    },
+    "jupyter.askForKernelRestart": false,
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": true
     }
+}
